@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Berkshire+Swash&display=swap");
+
+.title {
+  font-family: "Berkshire Swash", cursive;
+}
+.anime-list {
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  gap: 6.5%;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+.anime-name {
+  background-color: #343434;
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+.anime-name h5,
+.big-font {
+  font-family: "Archivo Black", sans-serif;
+  margin-bottom: 0;
+}
+.anime-info {
+  display: grid;
+  grid-template-columns: 23% 77%;
+  padding: 1rem;
+}
+.anime-info,
+.info1,
+.info2 {
+  border: 1px solid #343434;
+}
+.rating {
+  display: flex;
+  gap: 4%;
+  padding: 1rem;
+}
+.small-text {
+  font-size: 12px;
+}
+.vertical-line {
+  border: 1px solid black;
+  box-shadow: 0 0 5px #343434;
+  height: 70px;
+}
+.play-img {
+  width: 20%;
+  height: 5rem;
+  position: relative;
+  z-index: 0;
+}
+.play-img img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.play-btn {
+  width: 100%;
+  height: 100%;
+  padding: 20% 35%;
+}
+.play-btn button {
+  background-color: #343434;
+  opacity: 0.9;
+  color: aliceblue;
+}
