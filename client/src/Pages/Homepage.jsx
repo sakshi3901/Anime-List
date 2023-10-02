@@ -10,7 +10,9 @@ export default function HomePage() {
   useEffect(() => {
     const getCharacters = async () => {
       try {
-        const res = await axios.get("http://localhost:4000/list");
+        const res = await axios.get(
+          "https://anime-backend-1oxy.onrender.com/list"
+        );
         const char = await res.data;
         setAnimelist(char);
       } catch (error) {

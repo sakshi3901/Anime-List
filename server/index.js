@@ -38,4 +38,4 @@ app.get("/list/:id", async (req, res) => {
   }
 });
 
-app.listen(4000);
+app.listen(process.env.PORT || 4000);
